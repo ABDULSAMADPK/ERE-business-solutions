@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.container-1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+}
+
+header {
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(174, 174, 174);
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-logo {
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 100;
+    padding: .25rem 0;
+}
+
+.current {
+    color: #3E56A2;
+    border-bottom: 1px solid #707070;
+}
+
+.checkbtn {
+    font-size: 1.5rem;
+    color: hsl(0, 4%, 10%);
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.search {
+    position: relative;
+    width: 250px;
+}
+
+.search input {
+    border: none;
+    background-color: #f1f1f1;
+    width: 200px;
+    padding: .7rem 1rem;
+    border-radius: 5px;
+}
+
+.search-icon {
+    position: absolute;
+    top: 11px;
+    right: 30px;
+    width: 21px;
+    height: 25px;
+}
+
+.user i {
+    margin-left: .7rem;
+}
+
+.apple {
+    width: 40px;
+    margin-right: .5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.text {
+    width: 35%;
+    margin: 0 0 0 auto;
+}
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo p {
+    font-size: .9rem;
+}
+
+.text h1 {
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.text a {
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: .4rem;
+
+}
+
+.categories {
+    margin-top: 2rem;
+}
+
+.categories-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    background-color: rgb(75, 75, 255);
+    border: none;
+    height: 26px;
+    margin-right: .8rem;
+    border-radius: 3px;
+}
+
+.categories-head h4 {
+    color: rgb(75, 75, 255);
+}
+
+
+.categories-items {
+    display: flex;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+
+.items img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.items p {
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.popular h4 {
+    color: rgb(75, 75, 255);
+}
+
+.popular-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.popular-item1 {
+    background-color: rgb(242, 241, 241);
+    width: 23%;
+    height: 100%;
+    margin-right: .8rem;
+    margin-bottom: 1rem;
+    padding-bottom: .8rem ;
+    border-radius: 5px;
+}
+.image-card{
+    display: flex;
+
+}
+
+.heart{
+    width: 10%;
+    padding-top: 1rem;
+}
+
+.popular-item1 p {
+    font-size: .8rem;
+    padding-top: .8rem;
+    padding-left: 1rem;
+}
+
+.popular-item1 img {
+    width:85%;
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.footer1 {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.foot {
+    width: 18%;
+    margin-top: 2rem;
+}
+
+.mail {
+    position: relative;
+    width: 90%;
+}
+
+.mail input {
+    border: 2px solid rgb(250, 250, 250);
+    border-radius: 5px;
+    background-color: #000;
+    color: #FAFAFA;
+    padding: 10px 15px;
+    width: 80%;
+}
+
+.send {
+    position: absolute;
+    top: 15%;
+    right: 15%;
+    width: 21px;
+    height: 25px;
+}
+
+.app {
+    display: flex;
+    justify-content: space-between;
+}
+
+.app img {
+    width: 100%;
+}
+
+.qr {
+    width: 35%;
+}
+
+.qr img {
+    margin-top: .5rem;
+    padding: .2rem 0;
+}
+
+.store {
+    margin-top: .5rem;
+    width: 55%;
+}
+
+.foot h6 {
+    font-size: .8rem;
+}
+
+.store img {
+    padding: .2rem 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.foot p{
+    font-size: .9rem;
+}
+
+.foot h4{
+    font-size: 1.3rem;
+}
+
+.foot h4,
+h3,
+p {
+    padding: .8rem 0;
+}
+
+.last{
+    text-align: center;
+    margin-top: 2rem;
+    color: #8f8f8f;
+}
+
+@media (max-width:950px) {
+
+    .title {
+        display: none;
+    }
+
+    
+    .checkbtn {
+        display: block;
+    }
+
+    nav ul{
+        position: fixed;
+        width: 40%;
+        margin: 1rem 2.82rem;
+        background-color: hsl(0, 0%, 86%);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul{
+        display: block;
+    }
+
+    nav ul li{
+        margin: 3rem 0;
+    }
+
+    nav ul li a{
+        color: #000;
+    }
+
+    #check:checked ~ nav ul{
+        left: 0;
+    }
+
+
+    .items:nth-child(n+7) {
+        display: none;
+    }
+
+    .container-1{
+        margin-top: 0;
+    }
+
+    header{
+        border: none;
+        margin: 0;
+    }
+
+    .foot{
+        width: 45%;
+    }
+
+}
+
+@media (max-width:750px) {
+
+    .popular-item1 {
+        width: 45%;
+    }
+
+    .items:nth-child(n+5) {
+        display: none;
+    }
+
+    .container-1{
+        padding: 0;
+    }
+
+    nav ul{
+        width: 50%;
+        margin: 1rem 1.5rem ;
+    }
+
+    .text{
+        width: 45%;
+    }
+
+}
