@@ -72,6 +72,10 @@ nav a {
     display: none;
 }
 
+.form {
+    display: none;
+}
+
 .search {
     position: relative;
     width: 250px;
@@ -147,7 +151,7 @@ nav a {
     justify-content: space-between;
 }
 
-button{
+button {
     background-color: rgb(75, 75, 255);
     border: none;
     height: 26px;
@@ -181,7 +185,7 @@ button{
     color: rgb(75, 75, 255);
 }
 
-.popular-items{
+.popular-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -194,15 +198,16 @@ button{
     height: 100%;
     margin-right: .8rem;
     margin-bottom: 1rem;
-    padding-bottom: .8rem ;
+    padding-bottom: .8rem;
     border-radius: 5px;
 }
-.image-card{
+
+.image-card {
     display: flex;
 
 }
 
-.heart{
+.heart {
     width: 10%;
     padding-top: 1rem;
 }
@@ -214,7 +219,7 @@ button{
 }
 
 .popular-item1 img {
-    width:85%;
+    width: 85%;
     margin-top: 1rem;
 }
 
@@ -295,11 +300,11 @@ footer {
     padding: 1rem 0;
 }
 
-.foot p{
+.foot p {
     font-size: .9rem;
 }
 
-.foot h4{
+.foot h4 {
     font-size: 1.3rem;
 }
 
@@ -309,9 +314,9 @@ p {
     padding: .8rem 0;
 }
 
-.last{
+.last {
     text-align: center;
-    margin-top: 2rem;
+    padding-top: 1.5rem;
     color: #8f8f8f;
 }
 
@@ -321,12 +326,45 @@ p {
         display: none;
     }
 
-    
+    .form {
+        display: block;
+    }
+
+
+    .form-search {
+        position: relative;
+        width: 90%;
+    }
+
+    .form-search input {
+        border: none;
+        background-color: #f1f1f1;
+        width: 100%;
+        padding: .7rem 1rem;
+        border-radius: 5px;
+    }
+
+    .form-icon {
+        position: absolute;
+        top: 11px;
+        right: 30px;
+        width: 21px;
+        height: 25px;
+    }
+
+    .footer1 {
+        display: none;
+    }
+
     .checkbtn {
         display: block;
     }
 
-    nav ul{
+    .search {
+        display: none;
+    }
+
+    nav ul {
         position: fixed;
         width: 40%;
         margin: 1rem 2.82rem;
@@ -337,19 +375,19 @@ p {
         transition: all .5s;
     }
 
-    nav ul{
+    nav ul {
         display: block;
     }
 
-    nav ul li{
+    nav ul li {
         margin: 3rem 0;
     }
 
-    nav ul li a{
+    nav ul li a {
         color: #000;
     }
 
-    #check:checked ~ nav ul{
+    #check:checked~nav ul {
         left: 0;
     }
 
@@ -358,16 +396,16 @@ p {
         display: none;
     }
 
-    .container-1{
+    .container-1 {
         margin-top: 0;
     }
 
-    header{
+    header {
         border: none;
         margin: 0;
     }
 
-    .foot{
+    .foot {
         width: 45%;
     }
 
@@ -383,16 +421,16 @@ p {
         display: none;
     }
 
-    .container-1{
+    .container-1 {
         padding: 0;
     }
 
-    nav ul{
+    nav ul {
         width: 50%;
-        margin: 1rem 1.5rem ;
+        margin: 1rem 1.5rem;
     }
 
-    .text{
+    .text {
         width: 45%;
     }
 
